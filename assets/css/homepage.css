@@ -1,0 +1,51 @@
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For custon font put:  
+font-family: Name of Font;
+src: url(link to font) */
+.nonProfitContainer {
+    margin: 50px 0
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px
+}
+
+.logo {
+    width: 15%;
+    height: auto
+}
+
+.homeDiv {
+    height: 500px;
+    background-color: greenyellow;
+    margin: 20px 0
+}
+
+.aboutDiv {
+    height: 500px;
+    background-color: lightcyan;
+    margin: 20px 0
+}
+
+.projectsDiv {
+    height: 500px;
+    background-color: lightcoral;
+    margin: 20px 0
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
